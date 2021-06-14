@@ -1,0 +1,15 @@
+<h1>
+    Hello World!!..
+</h1>
+
+<form method="POST">
+    {% csrf_token %} 
+    <input type="number" name="val1">
+    <input type="number" name="val2">
+    <br><br>
+    <input type="submit" value="submit">
+     
+</form>
+<h2>
+    Answer is : {{ ans }}
+</h2>
